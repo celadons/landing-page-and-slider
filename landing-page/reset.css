@@ -39,6 +39,10 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  background-color: #000000;
+}
+
 input,
 button,
 textarea {
