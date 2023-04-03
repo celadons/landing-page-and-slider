@@ -1,0 +1,197 @@
+.id-scanner {
+  position: relative;
+}
+
+.id-scanner__background {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 836px;
+  background-image: url(./assets/id-scanner-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.id-scanner__gradient {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 1060px;
+  background: linear-gradient(
+    179.83deg,
+    #000000 -3.1%,
+    rgba(0, 0, 0, 0) 56.76%,
+    #000000 83.92%
+  );
+}
+
+.id-scanner__wrapper {
+  margin: 0px auto;
+  padding: 0px 100px;
+  max-width: 1440px;
+  display: flex;
+}
+
+.id-scanner__phones {
+  margin-top: 442px;
+  display: flex;
+  gap: 49.44px;
+}
+
+.id-scanner__phones img {
+  width: 332.56px;
+  height: 667.15px;
+}
+
+.id-scanner__text {
+  margin-top: 829px;
+  margin-left: 128.44px;
+  display: flex;
+  flex-direction: column;
+}
+
+.id-scanner__text h2 {
+  max-width: 400px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.id-scanner__text p {
+  margin-top: 23px;
+  max-width: 316px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.bi-tool {
+  position: relative;
+  margin: 293.85px auto 0px;
+  padding: 0px 100px;
+  max-width: 1440px;
+  display: flex;
+}
+
+.bi-tool__background {
+  position: absolute;
+  z-index: -1;
+  width: 426.21px;
+  height: 438.35px;
+  left: -111px;
+  top: -190px;
+  background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
+  opacity: 0.1;
+  filter: blur(125px);
+  transform: rotate(5.78deg);
+}
+
+.bi-tool__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.bi-tool__text h2 {
+  max-width: 497px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.bi-tool__text p {
+  margin-top: 23px;
+  max-width: 395px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.bi-tool__charts {
+  position: relative;
+}
+
+.chart-1 {
+  position: absolute;
+  width: 252.24px;
+  height: 150.05px;
+  left: 337.26px;
+  top: -88px;
+  background-image: url(./assets/chart-1.png);
+  border: 0.616471px solid rgba(255, 255, 255, 0.5);
+  border-radius: 14.7953px;
+}
+
+.chart-2 {
+  position: absolute;
+  width: 233.24px;
+  height: 45.35px;
+  left: 157px;
+  top: 95px;
+  background-image: url(./assets/chart-2.png);
+}
+
+.chart-3 {
+  position: absolute;
+  width: 192.22px;
+  height: 114.36px;
+  left: 25px;
+  top: 160.81px;
+  background-image: url(./assets/chart-3.png);
+  border: 0.616471px solid rgba(255, 255, 255, 0.5);
+  border-radius: 14.7953px;
+}
+
+.chart-4 {
+  position: absolute;
+  width: 182.49px;
+  height: 193.03px;
+  left: 461.36px;
+  top: 93.49px;
+  background-image: url(./assets/chart-4.png);
+  border: 0.616471px solid rgba(255, 255, 255, 0.5);
+  border-radius: 14.7953px;
+}
+
+.chart-5 {
+  position: absolute;
+  z-index: 1;
+  width: 193.85px;
+  height: 117.61px;
+  left: 279.68px;
+  top: 203.8px;
+  background-image: url(./assets/chart-5.png);
+  border: 0.616471px solid rgba(255, 255, 255, 0.5);
+  border-radius: 14.7953px;
+}
+
+.chart-6 {
+  position: absolute;
+  width: 193.85px;
+  height: 117.61px;
+  left: 206.68px;
+  top: 304.37px;
+  background-image: url(./assets/chart-6.png);
+  border: 0.616471px solid rgba(255, 255, 255, 0.5);
+  border-radius: 14.7953px;
+}
+
+.chart-7 {
+  position: absolute;
+  width: 281.13px;
+  height: 56.21px;
+  left: 447px;
+  top: 377px;
+  background-image: url(./assets/chart-7.png);
+}
